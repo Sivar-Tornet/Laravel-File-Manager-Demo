@@ -1,0 +1,20 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Sid": "AllowAccessFromSpecificDomain",
+        "Effect": "Allow",
+        "Principal": "*",
+        "Action": "s3:GetObject",
+        "Resource": "arn:aws:s3:::ladies-file-manager/*",
+        "Condition": {
+          "StringLike": {
+            "aws:Referer": [
+              "http://ladies-fm.sivarsarkawt.com/",
+              "https://ladies-fm.sivarsarkawt.com/"
+            ]
+          }
+        }
+      }
+    ]
+  }
