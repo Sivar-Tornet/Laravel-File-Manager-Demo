@@ -161,8 +161,8 @@ return [
             //['disk' => 'public', 'path' => '/', 'access' => 2],
         ],
         1    => [
-            //['disk' => 'public', 'path' => 'images/arch*.jpg', 'access' => 2],
-            //['disk' => 'public', 'path' => 'files/*', 'access' => 1],
+            ['disk' => 's3', 'path' => 'ladies/*', 'access' => 2],
+            // ['disk' => 's3', 'path' => 'ladies/*', 'access' => 1],
         ],
     ],
 
