@@ -22,6 +22,14 @@ return [
     //********* Default configuration for DefaultConfigRepository **************
 
     /**
+     * Visibility option
+     */
+    'visibility' => [
+        'default' => 'public',
+    ],
+
+
+    /**
      * LFM Route prefix
      * !!! WARNING - if you change it, you should compile frontend with new prefix(baseUrl) !!!
      */
