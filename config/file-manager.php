@@ -110,14 +110,14 @@ return [
      *
      * default - false(OFF)
      */
-    'acl'               => true,
+    'acl'               => false,
 
     /**
      * Hide files and folders from file-manager if user doesn't have access
      *
      * ACL access level = 0
      */
-    'aclHideFromFM'     => true,
+    'aclHideFromFM'     => false,
 
     /**
      * ACL strategy
