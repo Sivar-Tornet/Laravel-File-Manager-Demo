@@ -20,6 +20,8 @@
 
         <div id="fm" style="height: 600px;"></div>
 
+        <img src="https://s3.eu-central-1.amazonaws.com/ladies-file-manager/ladies/images/tornet_test_1.jpg" alt="">
+
         <script src="{{ asset('vendor/file-manager/js/file-manager.js') }}"></script>
     </body>
 </html>
