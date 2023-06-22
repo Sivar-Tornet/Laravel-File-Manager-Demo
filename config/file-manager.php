@@ -24,9 +24,9 @@ return [
     /**
      * Visibility option
      */
-    'visibility' => [
-        'default' => 'public',
-    ],
+    // 'visibility' => [
+    //     'default' => 'public',
+    // ],
 
 
     /**
